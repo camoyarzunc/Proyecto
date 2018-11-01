@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block head %}
+{% endblock head %}
+{% block body %}
+    {% load static %}
+    <div class="barra">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <img src="{% static 'core/img/logo.png' %}" width="10%">
+        </div>
+    </div>
+    <form method="post" action="validar.php" autocomplete="off">
+        <h2>Login</h2>
+        <input type="text" placeholder="&#128272; Usuario" name="txtUser">
+        <input type="password" placeholder="&#128272; Contraseña" name="txtPass">
+        <center> <button type="submit" href="../css/estilo.css">Ingresar</button> </center>
+    </form>
+
+{% endblock body %}
