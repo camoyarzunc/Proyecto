@@ -80,7 +80,7 @@ background: rgb(111, 216, 193);
     justify-content: center;
     align-items: center;
 }
-imagen a{
+.imagen a{
     color: #ffffff;
     font-size: 40px;
     text-decoration: none;

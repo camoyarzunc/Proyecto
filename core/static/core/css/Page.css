@@ -1,0 +1,15 @@
+html,body{
+    background-color: #34b4a3d7;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    margin: 0 ;
+    border: 0 ;
+    padding: 0 ;
+}
+.blanco,.div1{
+    color: white;
+}
+.fondo{
+color: #34b4a3d7;
+}

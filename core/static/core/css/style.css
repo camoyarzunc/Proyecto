@@ -1,70 +1,79 @@
-body{
-    background-image:url(../img/perro.png);
-    background-size: 100vw 100vh;
-    background-attachment: fixed;
-    margin:0;
+/*Login*/
+html,body{
+background-image: url('../img/login.jpg');
+background-size: cover;
+height: 100%;
+font-family: 'Numans', sans-serif;
+width: 100% ;
+margin: 0 ;
+border: 0 ;
+padding: 0 ;
 }
-div{
-    background-color:#34b4a3d7;
-    padding: 15px;
-    width: auto;
-    height: auto;
+
+.container{
+height: 100%;
+align-content: center;
 }
+
+.card{
+align-content: center;
+height: 300px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card-header h3{
+color: white;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
 .blanco{
     color: white;
 }
-form{
-    width: 450px;
-    margin: auto;
-    background: rgba(0,0,0,0.4);
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 7px;
-}
-h2{
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    font-size: 30px;
-    margin-bottom:20px;
-}
-input,textarea{
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    border: none;
-}
-textarea{
-min-height: 100px;
-max-height: 200px;
-max-width: 100%;
-}
-#boton{
-    background: #31384a;
-    color: #fff;
-    padding: 20px;
-}
-#boton:hover{
-    cursor: pointer;
-}
-@media (max-width:480px){
-    form{
-        width: 100%;
-    }
-}
-h1{
-    text-align: center;
-    color: #fff;
-    font-size: 40px;
-    background:rgba(0,0,0,0.4);
-    margin-top: 20px;
-}
-
-
-
-
 
 
 

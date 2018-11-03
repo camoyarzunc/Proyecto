@@ -1,0 +1,16 @@
+/*formulario*/
+.color{
+    color: aqua;
+}
+.blanco{
+    color: white;
+}
+html,body{
+    background-image: url('../img/login.jpg');
+    background-size: cover;
+}
+.login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}    
