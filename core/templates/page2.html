@@ -8,25 +8,54 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <div class="container">
-    <center>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <img src="../static/core/img/logo.png" alt="logo">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                <a href="" class="blanco">Inicio</a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                <a href="" class="blanco">Quienes somos</a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                <a href="" class="blanco">Servicios</a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                <a href="" class="blanco">Contactanos</a>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="{% url 'page2' %}" <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;"> Mis Perris </font>
+            </font>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
+            aria-expand="false" aria-label="Toggle navigation ">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'mascota'%}">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;"> Ingreso mascota </font>
+                        </font>
+                        <span class="sr-only">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;"> (actual) </font>
+                            </font>
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'listar'%}">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;"> Listar mascota </font>
+                        </font>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'modificar'%}">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;"> Modificar </font>
+                        </font>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'eliminar'%}">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;"> Eliminar </font>
+                        </font>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </center>
+    </nav>
     <br>
     <div height="auto" width="auto" id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -119,70 +148,70 @@
             </td>
         </tr>
         <div class="modal" id="img1">
-                <h3>Oso</h3>
-                <div class="imagen">
-                    <a href="#img7">&#60;</a>
-                    <a href="#img2"><img src="../static/core/img/Oso.jpg" alt=""></a>
-                    <a href="#img2">></a>
-                </div>
-                <a class="cerrar" href="">X</a>
+            <h3>Oso</h3>
+            <div class="imagen">
+                <a href="#img7">&#60;</a>
+                <a href="#img2"><img src="../static/core/img/Oso.jpg" alt=""></a>
+                <a href="#img2">></a>
             </div>
-            <div class="modal" id="img2">
-                <h3>Chocolate</h3>
-                <div class="imagen">
-                    <a href="#img1">&#60;</a>
-                    <a href="#img3"><img src="../static/core/img/Chocolate.jpg" alt=""></a>
-                    <a href="#img3">></a>
-                </div>
-                <a class="cerrar" href="">X</a>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img2">
+            <h3>Chocolate</h3>
+            <div class="imagen">
+                <a href="#img1">&#60;</a>
+                <a href="#img3"><img src="../static/core/img/Chocolate.jpg" alt=""></a>
+                <a href="#img3">></a>
             </div>
-            <div class="modal" id="img3">
-                <h3>Bigotes</h3>
-                <div class="imagen">
-                    <a href="#img2">&#60;</a>
-                    <a href="#img4"><img src="../static/core/img/Bigotes.jpg" alt=""></a>
-                    <a href="#img4">></a>
-                </div>
-                <a class="cerrar" href="">X</a>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img3">
+            <h3>Bigotes</h3>
+            <div class="imagen">
+                <a href="#img2">&#60;</a>
+                <a href="#img4"><img src="../static/core/img/Bigotes.jpg" alt=""></a>
+                <a href="#img4">></a>
             </div>
-            <div class="modal" id="img4">
-                <h3>Maya</h3>
-                <div class="imagen">
-                    <a href="#img3">&#60;</a>
-                    <a href="#img5"><img src="../static/core/img/Maya.jpg" alt=""></a>
-                    <a href="#img5">></a>
-                </div>
-                <a class="cerrar" href="">x</a>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img4">
+            <h3>Maya</h3>
+            <div class="imagen">
+                <a href="#img3">&#60;</a>
+                <a href="#img5"><img src="../static/core/img/Maya.jpg" alt=""></a>
+                <a href="#img5">></a>
             </div>
-            <div class="modal" id="img5">
-                <h3>Pexel</h3>
-                <div class="imagen">
-                    <a href="#img4">&#60;</a>
-                    <a href="#img6"><img src="../static/core/img/Pexel.jpg" alt="">
-                    </a>
-                    <a href="#img6">></a>
-                </div>
-                <a class="cerrar" href="">X</a>
+            <a class="cerrar" href="">x</a>
+        </div>
+        <div class="modal" id="img5">
+            <h3>Pexel</h3>
+            <div class="imagen">
+                <a href="#img4">&#60;</a>
+                <a href="#img6"><img src="../static/core/img/Pexel.jpg" alt="">
+                </a>
+                <a href="#img6">></a>
             </div>
-            <div class="modal" id="img6">
-                <h3>Wifi</h3>
-                <div class="imagen">
-                    <a href="#img5">&#60;</a>
-                    <a href="#img7"><img src="../static/core/img/Wifi.jpg" alt=""></a>
-                    <a href="#img7">></a>
-                </div>
-                <a class="cerrar" href="">X</a>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img6">
+            <h3>Wifi</h3>
+            <div class="imagen">
+                <a href="#img5">&#60;</a>
+                <a href="#img7"><img src="../static/core/img/Wifi.jpg" alt=""></a>
+                <a href="#img7">></a>
             </div>
-            <div class="modal" id="img7">
-                <h3>Luna</h3>
-                <div class="imagen">
-                    <a href="#img6">&#60;</a>
-                    <a href="#img1"><img src="../static/core/img/Luna.jpg" alt=""></a>
-                    <a href="#img1">></a>
-                </div>
-                <a class="cerrar" href="">X</a>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img7">
+            <h3>Luna</h3>
+            <div class="imagen">
+                <a href="#img6">&#60;</a>
+                <a href="#img1"><img src="../static/core/img/Luna.jpg" alt=""></a>
+                <a href="#img1">></a>
             </div>
-        
+            <a class="cerrar" href="">X</a>
+        </div>
+
     </div>
 </center>
 

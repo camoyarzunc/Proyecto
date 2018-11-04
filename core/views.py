@@ -11,3 +11,18 @@ def formulario(request):
 
 def page(request):
     return render(request,'page.html')
+
+def mascota(request):
+    return render(request,'Mascota.html')
+
+def listar(request):
+    return render(request,'listar.html')
+
+def page2(request):
+    return render(request,'page2.html')
+
+def modificar(request):
+    return render(request,'modificar.html')
+
+def eliminar(request):
+    return render(request,'eliminar.html')
